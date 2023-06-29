@@ -1,6 +1,10 @@
 body{background-color: aqua;}
-h2,h3{font-style: italic;}
-image{width: 510;
-height: 320;}
-h1{background-color: blue;}
+h2,h3{font-style: italic;
+font-size: 10mm;}
+img{border-style:dotted;
+border-radius: 50%;
+background-color: black;}
+h1{background-color: blue;
+font-size: 20mm;}
+section{border-style: dashed; }
 
