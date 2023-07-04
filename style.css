@@ -6,6 +6,21 @@ border-radius: 50%;
 background-color: black;}
 h1{background-color: blue;
 font-size: 20mm;
-border-style: dotted;}
+border-style: dotted;
+font-style: oblique;}
+Body{margin: 2cm;}
 
-body{margin: 2cm;}
+.button{background-color: crimson;
+border:none;
+color: rgb(59, 26, 205);
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 12px;
+position: fixed;
+bottom: 20px;
+right: 20px;}
