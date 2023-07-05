@@ -1,6 +1,9 @@
 body{background-color: aqua;}
 h2,h3{font-style: italic;
-font-size: 10mm;}
+font-size: 10mm;
+color: white;;}
+P{color: azure;}
+li{color: white;}
 img{border-style:dotted;
 border-radius: 50%;
 background-color: black;}
