@@ -4,6 +4,10 @@ font-size: 10mm;}
 img{border-style:dotted;
 border-radius: 50%;
 background-color: black;}
+.blackBox{
+    width: 500px;height: 500px;
+    background-color: black;
+}
 h1{background-color: blue;
 font-size: 20mm;
 border-style: dotted;
