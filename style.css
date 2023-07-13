@@ -1,57 +1,97 @@
-body{background-color: aqua;}
-h2,h3{font-style: italic;
-font-size: 10mm;
-color: white;;}
-P{color: azure;}
-li{color: white;}
-
-img{border-style:dotted;
-    border-radius: 50%;
-    background-color: black;
+body {
+  background-color: aqua;
 }
-    .blackBox{
-        width: 500px;height: 500px;
-        background-color: black;}
+h2,
+h3 {
+  font-style: italic;
+  font-size: 10mm;
+  color: white;
+}
+P {
+  color: azure;
+}
+li {
+  color: white;
+}
 
-h1{background-color: blue;
-font-size: 20mm;
-border-style: dotted;
-font-style: oblique;}
-Body{margin: 2cm;}
+img {
+  border-style: dotted;
+  border-radius: 50%;
+  background-color: black;
+}
+.blackBox {
+  width: 500px;
+  height: 500px;
+  background-color: black;
+}
 
-.button{background-color: crimson;
-border:none;
-color: rgb(59, 26, 205);
-padding: 15px 32px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-margin: 4px 2px;
-cursor: pointer;
-border-radius: 12px;
-position: fixed;
-bottom: 20px;
-right: 20px;}
+h1 {
+  background-color: blue;
+  font-size: 20mm;
+  border-style: dotted;
+  font-style: oblique;
+}
+Body {
+  margin: 2cm;
+}
 
-body{
-   
-    background-image:url(ezechias2.jpg) ;
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-size: contain}
-    
-    @media only screen and (min-width: 600px) {
-        body { background-color: red; 
-        margin:;}
+.button {
+  background-color: crimson;
+  border: none;
+  color: rgb(59, 26, 205);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
 
-        @media only screen and (min-width: 992px) {
-            body  { background-color: yellow;
-             margin: 78;
-            img: margin: 7px;;}
-         } 
-         
-         
-         @media only screen and (min-width: 1200px) {
-            body { background-color: orange; }
-         }
+body {
+  background-image: url(ezechias2.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: red;
+    margin: 50px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    background-color: yellow;
+    margin: 78;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: orange;
+  }
+
+  @keyframes divcolor{0%
+    {background-color: black;
+    transform: translate(200px);}
+    50%{ background-color: green;
+      border-radius:  100%;}
+    100%{background-color: blue;transform: rotate(90deg);}}
+
+div{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  animation-name: divcolor;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-direction: alternate;
+}
